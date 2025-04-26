@@ -48,7 +48,7 @@ class _ContactListPageState extends State<ContactPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Slzno Contacts', style: TextStyle(fontWeight: FontWeight.bold)),
+        title: const Text('Slzno Contacts - Flutter', style: TextStyle(fontWeight: FontWeight.bold)),
         centerTitle: true,
       ),
       body: ListView.builder(
